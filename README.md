@@ -1,8 +1,10 @@
-<!-- Change Title to 'NSS Phoenix' If Kaedwulf rules over Station -->
-![Travis Build Status](https://travis-ci.org/sshado/Aphelion-Code.svg)
-# Aphelion Project
+# Unbound Travels
 
-[Website](hhttp://aphelion-project.xyz/) - [Code](https://github.com/sshado/Aphelion-Code)
+[![Join the chat at https://gitter.im/JakeDaBoss/NSS-Phoenix](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JakeDaBoss/NSS-Phoenix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+![travis](https://travis-ci.org/jamiedigweed/NSS-Phoenix.svg)
+
+[Website](http://www.unbound-travels.com/) - [Code](https://github.com/jamiedigweed/NSS-Phoenix)
 
 ---
 
@@ -20,11 +22,11 @@ See [here](https://www.gnu.org/licenses/why-affero-gpl.html) for more informatio
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
 
-Click [here](https://github.com/sshado/Aphelion-Code/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
+Click [here](https://github.com/jamiedigweed/NSS-Phoenix/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
 
 The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
 
-    git clone https://github.com/sshado/Aphelion-Code.git
+    git clone https://github.com/jamiedigweed/NSS-Phoenix.git
 
 (hint: hold down ctrl and press insert to paste into git bash)
 
@@ -32,8 +34,8 @@ This will take a while to download, but it provides an easier method for updatin
 
 Once the repository is in place, run this command:
 ```bash
-$ cd Aphelion-Code
-$ git update-index --assume-unchanged baystation12.int
+cd Baystation12
+git update-index --assume-unchanged baystation12.int
 ```
 Now git will ignore changes to the file baystation12.int.
 
@@ -69,9 +71,9 @@ as these store your server configuration, player preferences and banlist.
 If you used the zip method, you'll need to download the zip file again and unzip it somewhere else, and then copy the /config and /data folders over.
 
 If you used the git method, you simply need to type this in to git bash:
-```bash
-    $ git pull
-```
+
+    git pull
+
 When this completes, copy over your /data and /config folders again, just in case.
 
 When you have done this, you'll need to recompile the code, but then it should work fine.
